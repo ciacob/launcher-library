@@ -1,2 +1,2 @@
 # launcher-library
-Effort of standardizing the ability of an AIR application of launching/communicating with native code. May be superseeded/rendered futile by "native-launcher-library", once it is implemented.
+This library should rather be part of the Cecil AIR application, since I can fathom no other application whose explicit purpose is to launch other applications. It provides very specific functionality that targets and complements Cecil's ability of launching files, folders, web pages and applications on a user's machine. 
