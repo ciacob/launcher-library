@@ -18,7 +18,7 @@ package ro.ciacob.desktop.launcher {
 			
 			var path : String = Strings.trim (item.getContent(GenericFieldNames.PATH));
 			var hasValidPath : Boolean = Files.isValidPath (path);
-			var details : String = item.getContent(GenericFieldNames.DETAILS);
+			var details : String = item.getContent(GenericFieldNames.CONFIGURATION);
 			var hasBatch : Boolean = Strings.contains(details, KnownScripts.BATCH_HEADER);
 			var hasWjs : Boolean = Strings.contains(details, KnownScripts.WJS_HEADER);
 			return (isSuite(item) || isWebLink(item) || hasValidPath || hasBatch || hasWjs);
